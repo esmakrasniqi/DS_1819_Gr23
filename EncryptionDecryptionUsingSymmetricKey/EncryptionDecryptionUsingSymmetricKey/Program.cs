@@ -83,5 +83,9 @@ public class AesOperation
             }
         }
     }
+    public static byte Reverse(byte inByte)
+    {
+        return (byte)~inByte;
+    }
 }
 
